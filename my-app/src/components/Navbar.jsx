@@ -1,9 +1,11 @@
 import React,{Component} from 'react'
 
-class Navbar extends Component
-{
 
-    render(){
+
+//Statless Functinal Component
+
+const Navbar=()=>{
+    
 
         return (
          
@@ -12,6 +14,7 @@ class Navbar extends Component
             </nav>
          
         );
-    }
-}
+};
+
+
 export default Navbar;
